@@ -157,8 +157,7 @@ span{
     font-weight: 400;
 }
 .about-content nav h3:hover{
-    color: black;
-    text-decoration: underline;
+    border-bottom: solid 4px #29ca8e;
 }
 .about-content h2{
     font-size: 30px;
@@ -350,7 +349,7 @@ footer{
     font-size: 16px;
 }
 
-@media (max-width:575px) {
+@media (max-width:768px) {
     .open{
         display: block;
     }
@@ -417,12 +416,12 @@ footer{
     }
     .professional h1{
         width: 80%;
-        font-size: 24px;
+        font-size: 28px;
         margin: auto;
 
     }
     .banner-box{
-        width: 90%;
+        width: 95%;
         margin: auto;
     }
     .plan{
@@ -463,6 +462,13 @@ footer{
         display: inline-block;
         width: 90%;
         margin: auto;
+    }
+    #fem{
+        display: flex;
+        flex-direction: column;
+    }
+    #akka{
+        order: 2;
     }
 
     
